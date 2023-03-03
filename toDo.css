@@ -1,0 +1,171 @@
+body {
+  background-image: linear-gradient(to left, #a5dfea, #e3f6ff);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(53, 53, 184);
+  background-color: #82aae3;
+  margin: 20px;
+  text-decoration: underline;
+  border-radius: 7px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  flex-direction: row;
+  background-color: #86cdd9;
+  margin: 20px;
+  border-radius: 7px;
+}
+
+#task2 {
+  height: 40px;
+  width: 500px;
+  margin: 9px;
+  font-size: 14px;
+  background-color: aliceblue;
+  border-radius: 7px;
+  font-size: 22px;
+  color: rgb(76, 76, 158);
+}
+/* #title1 {
+  height: 40px;
+  width: 140px;
+  margin: 9px;
+  font-size: 14px;
+  background-color: aliceblue;
+  border-radius: 7px;
+  font-size: 15px;
+} */
+
+#btn1 {
+  height: 44px;
+  width: 110px;
+  font-size: 20px;
+  margin: 9px;
+  background-color: aliceblue;
+  border-radius: 7px;
+  color: rgb(76, 76, 158);
+}
+#btn1:hover {
+  cursor: pointer;
+}
+#btn2 {
+  color: rgb(76, 76, 158);
+  height: 44px;
+  width: 200px;
+  font-size: 20px;
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+#btn2:hover {
+  cursor: pointer;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  align-items: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.heading1 {
+  color: rgb(76, 76, 158);
+  background-color: #a5dfea;
+  display: flex;
+  justify-content: center;
+  height: 58px;
+  align-items: center;
+  width: 855px;
+  padding: 5px;
+  border-radius: 7px;
+}
+.noTask {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 20px;
+}
+
+.noTask1 {
+  background-color: #a5dfea;
+  color: rgb(76, 76, 158);
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  border-radius: 7px;
+  width: 840px;
+  padding: 5px;
+}
+
+.maintask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox {
+  background-color: #a5dfea;
+  margin: 5px;
+  border-radius: 7px;
+}
+.outBox {
+  height: 40px;
+  margin: 10px;
+}
+
+.mainBox,
+.outBox,
+.outerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerBox {
+  flex-direction: column;
+}
+
+.check {
+  height: 30px;
+  width: 90px;
+}
+
+.check,
+.notes,
+.delete,
+.editing {
+  background-color: ghostwhite;
+  color: rgb(76, 76, 158);
+  border-radius: 7px;
+}
+
+.delete,
+.editing {
+  font-size: 20px;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.notes {
+  width: 460px;
+  height: 40px;
+  font-size: 25px;
+  margin-left: 2px;
+  margin-right: 20px;
+}
